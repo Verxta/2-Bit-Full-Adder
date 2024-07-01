@@ -1,7 +1,7 @@
 --- 
 # Tiny Tapeout project information
 project:
-  wokwi_id:    0        # If using wokwi, set this to your project's ID
+  wokwi_id:    382833434609189889        # If using wokwi, set this to your project's ID
 
 # If using an HDL, set wokwi_id as 0 and uncomment and list your source files here. 
 # Source files must be in ./src and you must list each source file separately
@@ -24,15 +24,16 @@ documentation:
   author:       ""      # Armando Rodriguez
   title:        ""      # 2 Bit Full Adder
   language:     "Wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  description:  ""      # The circuit adds two one bit singals. It has carry in which is another 1 bit singal. The outputs are carry out and sum.
+  description:  "The circuit adds two one bit singals. It has carry in which is another 1 bit signal. The outputs are carried out and summed."      # The circuit adds two one bit singals. It has carry in which is another 1 bit singal. The outputs are carry out and sum.
 
 # Longer description of how the project works. You can use standard markdown format.
   how_it_works: |
-      #Explain how your project works
+      Addition calculator that works off of two parts one that checks whether two bits are on or off and stores this information if they're both off or on and 
+      another that carries over the bit if they are both off. At the end of this calculator all of the information of bits are transformed into decimal format.
 
 # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   how_to_test:  |
-      #See Tiny tape out full adder.
+      See Tiny tape out full adder.
 
 # A description of what the inputs do (e.g. red button, SPI CLK, SPI MOSI, etc).
   inputs:               
